@@ -1,6 +1,10 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <div class="container">
-  <h1>Welcome.</h1>
-  <p><a href="/play">PLAY</a> the game</p>
+  <h1>Welcome!</h1>
+  <p><a href="{base}/play">PLAY</a> the game</p>
   <!-- <p><a href="/load">LOAD</a> saved hideout</p> -->
 </div>
 
